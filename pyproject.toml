@@ -10,6 +10,8 @@ dependencies = [
     "ipyleaflet",
     "geopandas",
     "shapely",
+    "localtileserver",
+    "rasterio",
 ]
 
 [tool.setuptools.packages.find]
