@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jupyterMapViewer"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "ipyleaflet",
+    "geopandas",
+    "shapely",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
