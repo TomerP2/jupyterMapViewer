@@ -8,7 +8,8 @@ from jupyterMapViewer import map_viewer
 
 example_data = 'data/vector.shp'
 
-map_viewer(example_data)
+m = map_viewer(example_data)
+m
 ```
 *Code creates interactive map
 
